@@ -5,11 +5,11 @@ Sanchez-Romero, R., Ito, T., Mill, R. D., Hanson, S. J., & Cole, M. W. (2023). [
 
 We present an approach to build generative directed [activity flow models](https://colelab.github.io/ActflowToolbox/) using fMRI functional connectivity (FC) inferred with the PC causal search algorithm, and task-related activations. 
 
-<img src="DirectedActFlowSchematic.png"  width="600" height="211">
+<img src="aux_figs/DirectedActFlowSchematic.png"  width="600" height="211">
 
 We also compared commonly used FC methods ordered in a continuum in terms of the amount of statistical conditional independence information and causal principles they used.
 
-<img src="FCContinuum_DirActFlow.png"  width="625" height="231">
+<img src="aux_figs/FCContinuum_DirActFlow.png"  width="625" height="231">
 
 ## PC algorithm for directed functional connectivity ##
 Importantly, we provide a Python based wrapper to run the version of the PC algorithm used in this paper ([PCalgWrapper.py](https://github.com/ColeLab/DirectedActflow_release/blob/main/PCalgWrapper.py)), where we remove some orientation rules that assume no-cycles in the true connectivity. This accounts for the knowledge that brain networks contain cyclic patterns. In practice, we prefer to leave connections unoriented (that may or may not be a cycle) instead of incorrectly inferring the abscence of a cycle. Full description and pseudocode of the PC algorithm are in [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300).
@@ -17,13 +17,13 @@ Importantly, we provide a Python based wrapper to run the version of the PC algo
 ## Pseudo-simulations data and results ##
 We include a Python Jupyter notebook to reproduce pseudo-simulations data and results: [simulations_results_release.ipynb](https://github.com/ColeLab/DirectedActflow_release/blob/main/simulations_results_release.ipynb)
 
-<img src="FigureR1_v04.png"  width="601" height="324">
+<img src="aux_figs/FigureR1_v04.png"  width="601" height="324">
 
 (Figure 2 from [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300)).
 
 ## Empirical data and results ##
 We include a Python Jupyter notebook to reproduce fMRI empirical results using Human Connectome Project (HCP) data. 
 
-<img src="FigureR3_v04.png"  width="522" height="422">
+<img src="aux_figs/FigureR3_v04.png"  width="522" height="422">
 
 (Figure 3. See [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300), for the rest of the results figures.)
