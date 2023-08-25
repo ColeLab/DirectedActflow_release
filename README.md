@@ -5,7 +5,9 @@ Sanchez-Romero, R., Ito, T., Mill, R. D., Hanson, S. J., & Cole, M. W. (2023). [
 
 We present an approach to build generative directed [activity flow models](https://colelab.github.io/ActflowToolbox/) using fMRI functional connectivity (FC) inferred with the PC causal search algorithm, and task-related activations. 
 
-<img src="aux_figs/DirectedActFlowSchematic.png"  width="600" height="211">
+<!---<img src="aux_figs/DirectedActFlowSchematic.png"  width="600" height="211">--->
+
+![Alt text](aux_figs/DirectedActFlowSchematic.png?raw=true)
 
 We also compared commonly used FC methods ordered in a continuum in terms of the amount of statistical conditional independence information and causal principles they used.
 
