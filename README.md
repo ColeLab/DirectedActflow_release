@@ -14,8 +14,8 @@ We also compared commonly used FC methods ordered in a continuum in terms of the
 ## PC algorithm for directed functional connectivity ##
 Importantly, we provide a Python based wrapper to run the version of the PC algorithm used in this paper, where we remove some orientation rules based on the assumption of no-cycles in the true connectivity. This accounts for the knowledge that brain networks contain cyclic patterns. In practice, we prefer to leave connections unoriented (that may or may not be a cycle) instead of incorrectly inferring the abscence of a cycle. Full description and pseudocode of the PC algorithm are in [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300).
 
-## Pseudo-simulated data and results ##
-We include a Python Jupyter notebook to reproduce pseudo-simulated data and results.
+## Pseudo-simulations data and results ##
+We include a Python Jupyter notebook to reproduce pseudo-simulation data and results: [simulations_results_release.ipynb](https://github.com/ColeLab/DirectedActflow_release/blob/main/simulations_results_release.ipynb)
 
 <img src="FigureR1_v04.png"  width="601" height="324">
 
