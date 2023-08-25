@@ -1,10 +1,10 @@
 # generate pseudoempirical data, using an empirical dataset and a causal model
-# Ruben Sanchez-Romero, August 2024
+# Ruben Sanchez-Romero
 
 import numpy as np
 from scipy import stats, linalg
 
-def pseudo_data(data, 
+def pseudoData(data, 
                 model, 
                 sample_size = 1000,
                 weights_given = False, 
