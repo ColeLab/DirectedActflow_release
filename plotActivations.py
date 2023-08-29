@@ -5,7 +5,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import os
 
-def plot_activations(activations, title, functional_networks=True, no_ylabel=False, network_color_bar=False):
+def plotActivations(activations, title, functional_networks=True, no_ylabel=False, network_color_bar=False):
 
     # for the weights colorbar: red positive, blue negative
     v_min = np.min(activations)
@@ -17,8 +17,9 @@ def plot_activations(activations, title, functional_networks=True, no_ylabel=Fal
     # to plot regions ordered by networks
     # Glasser 360 cortex parcellation ordered into functional networks reported in Ji et al., (2019)
     # path where the network file is: it contains labels (first column) and order (second column)  
-    current_dir = os.getcwd()
-    net_file_path = f'{current_dir}/aux_files/networks_labels.txt'
+    #current_dir = os.getcwd()
+    #net_file_path = f'{current_dir}/aux_files/networks_labels.txt'
+    net_file_path = 'networks_labels.txt'
     net_file = np.loadtxt(net_file_path,delimiter=',')
        
     
