@@ -26,7 +26,7 @@ We include a Python Jupyter notebook to reproduce pseudo-simulations data and re
 (Figure 2 from [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300)).
 
 ## Empirical data and results ##
-We include a Python Jupyter notebook to reproduce fMRI empirical results using Human Connectome Project (HCP) data. 
+We include a Python Jupyter notebook to reproduce fMRI empirical results using Human Connectome Project (HCP) data: [empirical_results_release.ipynb](https://github.com/ColeLab/DirectedActflow_release/blob/main/empirical_results_release.ipynb)
 
 <!---<img src="aux_figs/FigureR3_v04.png"  width="522" height="422">--->
 ![Alt text](aux_figs/FigureR3_v04.png?raw=true)
