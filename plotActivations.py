@@ -12,7 +12,7 @@ def plotActivations(activations, title, functional_networks=True, no_ylabel=Fals
     v_max = np.max(activations)
     v_mid = 0
     # define the figure and the axes
-    fig,ax = plt.subplots()
+    fig,ax = plt.subplots(dpi=72)
     
     # to plot regions ordered by networks
     # Glasser 360 cortex parcellation ordered into functional networks reported in Ji et al., (2019)
@@ -39,7 +39,8 @@ def plotActivations(activations, title, functional_networks=True, no_ylabel=Fals
                     alpha = 1,
                     clim=(v_min, v_max), 
                     norm=MidpointNormalize(midpoint=v_mid,vmin=v_min, vmax=v_max),
-                    aspect='auto'
+                    aspect='auto',
+                    interpolation='none'
                    )
     plt.title(title,fontsize=18)
     
