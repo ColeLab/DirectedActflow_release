@@ -3,6 +3,8 @@
 Repository for code and results from <br /> 
 Sanchez-Romero, R., Ito, T., Mill, R. D., Hanson, S. J., & Cole, M. W. (2023). [Causally informed activity flow models provide mechanistic insight into network-generated cognitive activations](https://doi.org/10.1016/j.neuroimage.2023.120300). NeuroImage, 120300.
 
+Use the repository [issues](https://github.com/ColeLab/DirectedActflow_release/issues) for questions or email ruben.saro.at.rutgers.edu. 
+
 We present an approach to build generative directed [activity flow models](https://colelab.github.io/ActflowToolbox/) using fMRI functional connectivity (FC) inferred with the PC causal search algorithm, and task-related activations. 
 
 <!---<img src="aux_figs/DirectedActFlowSchematic.png"  width="600" height="211">--->
