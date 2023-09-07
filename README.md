@@ -20,8 +20,14 @@ We also compared commonly used FC methods ordered in a continuum in terms of the
 Importantly, we provide a Python wrapper to run the version of the PC algorithm used in this paper ([PCalgWrapper.py](https://github.com/ColeLab/DirectedActflow_release/blob/main/PCalgWrapper.py)), where we remove some orientation rules that assume no-cycles in the true connectivity. This accounts for the knowledge that brain networks contain cyclic patterns. In practice, we prefer to leave connections unoriented (that may or may not be a cycle) instead of incorrectly inferring the abscence of a cycle. Full description and pseudocode of the PC algorithm are in [Sanchez-Romero et al.](https://doi.org/10.1016/j.neuroimage.2023.120300). <br />
 We highly recommend to check [PCalgorithm_run_example.ipynb](https://github.com/ColeLab/DirectedActflow_release/blob/main/PCalgorithm_run_example.ipynb) for an example run of the PC algorithm detailing aspects of the wrapper. See also the [Tetrad project website](https://sites.google.com/view/tetradcausal) for the original implementation of PC and other causal search algorithms.
 
+### Dependencies
+Our Tetrad-PC implementation requires Java. See instructions [here](https://github.com/cmu-phil/tetrad/wiki/Setting-up-Java-for-Tetrad)
+
 ## Pseudo-empirical simulations data and results ##
 We include a Python Jupyter notebook to reproduce our pseudo-empirical simulations analysis and results: [simulations_results_release.ipynb](https://github.com/ColeLab/DirectedActflow_release/blob/main/simulations_results_release.ipynb). This simulation strategy was introduced in [Sanchez-Romero and Cole (2021)](https://doi.org/10.1162/jocn_a_01580) and accompanying repository [github.com/ColeLab/CombinedFC](https://github.com/ColeLab/CombinedFC).
+
+### Dependencies
+Our simulations require [igraph](https://python.igraph.org/en/stable/). You can download it using "pip install python-igraph" or "conda install -c conda-forge python-igraph"
 
 <!---<img src="aux_figs/FigureR1_v04.png"  width="601" height="324">--->
 ![Alt text](aux_figs/FigureR1_v04.png?raw=true)
